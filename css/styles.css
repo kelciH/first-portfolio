@@ -1,0 +1,362 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: "garReg";
+    src: url(../css/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "garBold";
+    src: url(../css/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "garBI";
+    src: url(../css/fonts/Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf) format("truetype");
+}
+
+.topArea {
+    height: 5px;
+    background-color: #DCAEA2;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #DCAEA2;
+}
+
+/* nav styling */
+
+nav {
+    width: 1400px;
+    border: #AD897B;
+    border-style: solid;
+    border-radius: 25px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DCAEA2;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "garBold";
+}
+
+.indexNav {
+    width: 1400px;
+    height: 80px;
+    background-color: #DCAEA2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: #AD897B;
+    border-style: solid;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.indexNav a {
+    text-decoration: none;
+    color: black;
+    font-family: "garBold";
+    font-size: 25px;
+}
+
+.active {
+    font-family: "garBI";
+}
+
+.links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+/* styling for all pages */
+
+.contentArea {
+    font-family: "garReg";
+    padding: 50px;
+    min-height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgHolder {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imgHolder img{
+    width: 25px;
+    height: 50px;
+}
+
+.contentArea h1 {
+    font-family: "garReg";
+}
+
+/* home page */
+
+.imgHolderHome img {
+    width: 200px;
+    height: 400px;
+}
+
+.homeContent {
+    height: 680px;
+    width: 100%;
+    background-color:#DCAEA2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "garReg";
+    font-size: 20px;
+}
+
+/* about page */
+
+.aboutPic img {
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+.aboutText {
+    text-align: center;
+    margin: 50px;
+    font-family: "garReg";
+}
+
+.aboutText h1 {
+    font-size: 40px;
+}
+
+.aboutText p {
+    font-size: 20px;
+}
+
+/* contact page */
+
+.GITfont {
+    font-size: 150px;
+}
+
+.Gfont {
+    width: 1000px;
+    font-size: 150px;
+}
+
+.strangeSpacing {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactSpacing {
+    font-family: "garReg";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pBoxSpacing {
+    width: 500px;
+}
+
+.infoSpacing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.moreSpacing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hOne {
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.pContact {
+    font-size: 20px;
+    font-family: "garReg";
+    justify-content: left;
+    width: 600px;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    margin-bottom: 50px;
+    border: solid 1px #935A85;
+}
+
+.buttonFormat {
+    height: 35px;
+    width: 140px;
+    background-color: #935A85;
+    border-radius: 38px;
+    font-size: 20px;
+    font-family: "garReg";
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* project page */
+
+.project1 img {
+    margin-top: 50px;
+    height: 530px;
+    width: 690px;
+}
+
+.project2 img {
+    margin-top: 50px;
+    height: 285px;
+    width: 690px;
+}
+
+.project3 img {
+    margin-top: 50px;
+    height: 390px;
+    width: 690px;
+}
+
+.project4 img {
+    margin-top: 20px;
+    height: 500px;
+    width: 690px;
+}
+
+.projectATags {
+    text-decoration: none;
+    color: white;
+    font-family: "garBold";
+}
+
+.overlay1 {
+    width: 690px;
+    height: 530px;
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.overlay2 {
+    width: 690px;
+    height: 285px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.overlay3 {
+    width: 690px;
+    height: 390px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.overlay4 {
+    width: 690px;
+    height: 500px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.project1:hover .overlay1{
+    display: block;
+}
+.project2:hover .overlay2{
+    display: block;
+}
+.project3:hover .overlay3{
+    display: block;
+}
+.project4:hover .overlay4{
+    display: block;
+}
+.project2.overlay2:click {
+    target="_blank";
+}
+
+/* footer styling */
+
+footer {
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #AD897B;
+}
+
+.fStyle {
+    width: 1200px;
+    font-family: "garReg";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
